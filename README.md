@@ -1,0 +1,17 @@
+GoCart - Your Personalized E-Commerce Experience
+
+GoCart is a sleek and user-friendly e-commerce platform that makes online shopping a breeze. Built with cutting-edge technologies like Node.js, Express, EJS, and MongoDB, GoCart offers a fast, secure, and seamless shopping experience for all users. Whether you’re a registered member or just browsing as a guest, GoCart ensures smooth browsing, easy checkout, and personalized recommendations. Key Features • User Authentication: Sign up, log in, and stay logged in to access your personal shopping cart and order history. • Shopping Cart: Add products to your cart, update quantities, and remove items with ease. • Product Listings: Explore a variety of products with detailed descriptions, prices, and high-quality images. • MongoDB Integration: Your account information, cart details, and shopping history are securely stored in a MongoDB database for easy access anytime. • Responsive Design: Whether you're on your desktop or mobile, GoCart is optimized for all devices to offer a smooth shopping experience. • Guest Mode: Don’t feel like registering? No problem! Browse products and shop without logging in—checkout is still a breeze. How It Works
+
+Browse Products: Visit the homepage to discover a wide range of products. Detailed listings help you make informed choices with all the necessary information at your fingertips.
+Add to Cart: Love something? Simply click ‘Add to Cart’ to begin your shopping journey. You can easily modify quantities or remove items whenever you want.
+Sign Up/Login: For a personalized shopping experience, create an account or log in to save your cart, view order history, and get tailored recommendations.
+Checkout: When you’re ready, proceed to checkout. Whether logged in or as a guest, GoCart ensures your payment process is simple and secure.
+MongoDB Database: Behind the scenes, MongoDB stores your account info and cart data, so you can pick up where you left off the next time you log in. Tech Stack • Frontend: Beautiful, dynamic user interfaces powered by EJS (Embedded JavaScript), making every page load fast and look great. • Backend: Node.js and Express.js work together to handle requests, manage authentication, and route traffic efficiently. • Database: We use MongoDB to safely store user data, product details, and cart contents for reliable, scalable storage. • Session Management: Express-session keeps you logged in and your cart data intact while you shop. Installation Guide Ready to give it a try? Here's how you can get GoCart running on your local machine:
+Clone the repository:
+git clone https://github.com/Harshrana007/E-Commerce
+cd Ecommerce
+npm install
+Set up MongoDB: o Ensure MongoDB is running on your system. o Update the connection URL in the .env file: o MONGODB_URI=mongodb://localhost:27017/gocart
+Run the application:
+npm start By default, GoCart will be available at http://localhost:3000. Usage Once the app is up and running, visit the homepage to start shopping! • Registered users can log in to access their personalized cart and order history. • Guest users can browse and shop without creating an account, and still enjoy a smooth checkout process. License This project is licensed under the MIT License—check out the LICENSE file for more details.
+This version emphasizes the user experience and highlights key features in a more engaging way, helping to paint a clearer picture of how the app works.
